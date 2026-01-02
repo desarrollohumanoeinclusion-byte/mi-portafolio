@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Emanuel Lauria </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        video { object-fit: cover; }
+        /* Forzamos la proporción vertical 9:16 */
+        .aspect-vertical { aspect-ratio: 9 / 16; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans">
+
+    <header class="py-16 text-center">
+        <h1 class="text-5xl font-extrabold tracking-tight text-white">José Emanuel Lauria</h1>
+        <p class="text-slate-400 mt-4 text-lg">Proyectos Audiovisuales e Historias</p>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 pb-20">
+        
+        <h2 class="text-2xl font-bold mb-8 text-blue-400">Proyectos 16:9</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-20">
+            
+            <div class="group bg-slate-800 rounded-2xl overflow-hidden shadow-2xl transition hover:scale-[1.02]">
+                <div class="aspect-video bg-black">
+                    <video controls preload="metadata" class="w-full h-full">
+                        <source src="videos/video1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold uppercase tracking-wide">Municipalidad de la Ciudad de San Juan</h2>
+                    <p class="text-slate-400 mt-2">Fondo de Pantalla para evento de pesebre viviente.</p>
+                </div>
+            </div>
+
+            <div class="group bg-slate-800 rounded-2xl overflow-hidden shadow-2xl transition hover:scale-[1.02]">
+                <div class="aspect-video bg-black">
+                    <video controls preload="metadata" class="w-full h-full">
+                        <source src="videos/video2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold uppercase tracking-wide">Federación Sanjuanina de Patín </h2>
+                    <p class="text-slate-400 mt-2">Animación de logo y video institucional.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-2xl font-bold mb-8 text-pink-500">Instagram Stories / Reels</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            
+            <div class="group bg-slate-800 rounded-2xl overflow-hidden shadow-2xl transition hover:scale-[1.05]">
+                <div class="aspect-vertical bg-black">
+                    <video controls preload="metadata" class="w-full h-full">
+                        <source src="videos/historia1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="p-4">
+                    <h2 class="text-sm font-bold uppercase tracking-wide">Story Comité Nacional de Hockey Sobre Patín</h2>
+                </div>
+            </div>
+
+            <div class="group bg-slate-800 rounded-2xl overflow-hidden shadow-2xl transition hover:scale-[1.05]">
+                <div class="aspect-vertical bg-black">
+                    <video controls preload="metadata" class="w-full h-full">
+                        <source src="videos/historia2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="p-4">
+                    <h2 class="text-sm font-bold uppercase tracking-wide">Story Flayer invitación de Academia el fortín</h2>
+                </div>
+            </div>
+
+            <div class="group bg-slate-800 rounded-2xl overflow-hidden shadow-2xl transition hover:scale-[1.05]">
+                <div class="aspect-vertical bg-black">
+                    <video controls preload="metadata" class="w-full h-full">
+                        <source src="videos/historia3.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="p-4">
+                    <h2 class="text-sm font-bold uppercase tracking-wide">Story San Juan Danza  "Encuentro Nacional de Folklore" </h2>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="py-8 text-center text-slate-500 border-t border-slate-800">
+        <p>Hecho con ❤️ para mi portafolio</p>
+    </footer>
+
+</body>
+</html>
